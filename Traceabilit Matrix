@@ -1,0 +1,26 @@
+P							
+Requirement ID	Requirement Description	UC1	UC2	UC3	UC4	UC5	Check
+R01 - User Management							
+R01.01	Upload student ID photos	/					/
+R01.02	Remove students/instructors	/					/
+R01.03	Unregister instructor’s phone			/			/
+R01.04	Restrict access to authorized users		/				/
+R01.05	Locate lost registered devices				/		/
+R02 - Attendance Tracking							
+R02.01	Attendance via ID barcode scanning (phones)	/					/
+R02.02	Attendance via ID barcode scanning (laptops)	/					/
+R02.03	Drop students after 3 absences			/			/
+R02.05	Generate attendance report		/				/
+R02.06	Students can view attendance records				/		/
+R04 - Security							
+R04.01	Enforce RBAC access control			/			/
+R04.02	Encrypt data for confidentiality					/	/
+R04.03	Multi-Factor Authentication (MFA)			/			/
+R04.04	Operate over HTTPS with SSL					/	/
+R05 - Infrastructure & Deployment							
+R05.01	Use MongoDB Atlas or MySQL				/		/
+R05.02	Ensure system scalability		/				/
+R05.03	Restrict API integration with university systems					/	/
+R06 - Deployment Timeline							
+R06	Initial system check on May 15, 2025					/	/
+R07	Full deployment on May 22, 2025					/	/
